@@ -14,18 +14,19 @@ Digite um numero inteiro: 0
 
 """
 
-x = 1
-soma = 0
 
+print("Digite um numero inteiro: ")
+x = int(input())
 
 while x != 0:
-    x = int(input("Digite um numero inteiro: "))
-  
-    for x in range (11):
+    if x % 2 != 0:
+        x = x + 1
 
-        par = int(x % 2 == 0)
-        soma = soma + par
+    soma = 5 * x + 20
     print(f"SOMA = {soma}")
 
+    print("Digite um numero inteiro: ")
+    x = int(input())
+    
 
 #TIVE DIFICULDADE
