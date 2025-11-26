@@ -36,3 +36,27 @@ for i in range (1, n+1):
         print("PAR POSITIVO")
     else:
         print("NULO")
+
+
+#outra opção (pelo curso)
+
+n = int(input("Quantos números você vai digitar? "))
+
+for i in range (1, n+1):
+    x = int(input("Digite um número: "))
+
+    if x == 0:
+        print("NULO")
+
+    elif x % 2 == 0:
+        if x < 0:
+            print("PAR NEGATIVO")
+        else:
+            print("PAR POSITIVO")
+    else:
+        if x < 0:      
+            print("IMPAR NEGATIVO")
+        else:
+            print("IMPAR POSITIVO")  
+
+    
