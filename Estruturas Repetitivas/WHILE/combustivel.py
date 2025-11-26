@@ -27,7 +27,7 @@ diesel = 0
 
 escolha = int(input("Informe um codigo (1, 2, 3) ou 4 para parar: "))
 
-while escolha > 0:
+while escolha != 4:
     
     match escolha:
         case 1:
@@ -36,8 +36,7 @@ while escolha > 0:
             gasolina = alcool + 1
         case 3:
             diesel = alcool + 1
-        case 4:
-            break
+        
 
     escolha = int(input("Informe um codigo (1, 2, 3) ou 4 para parar: "))
 
