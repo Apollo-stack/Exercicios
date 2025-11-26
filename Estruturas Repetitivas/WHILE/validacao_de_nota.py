@@ -29,4 +29,4 @@ while n2 <= 0 or n2 >10:
     n2 = float(input("Valor invalido! Tente novamente: "))
 
 media = (n1 + n2) / 2
-print(f"MEDIA = {media}")
+print(f"MEDIA = {media:4.2f}")
