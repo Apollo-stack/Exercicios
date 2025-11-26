@@ -11,12 +11,10 @@ Digite o valor de X: 8
 
 """
 
-x = int(input("Digite um numero inteiro: "))
+x = int(input("Digite o valor de X: "))
 
 for i in range (1,x+1):
-
-    impar = int(i % 2 != 0)
-
-    print(f"{impar}")
+    if i % 2 != 0:
+        print(f"{i}")
 
     #TIVE DIFICULDADE
