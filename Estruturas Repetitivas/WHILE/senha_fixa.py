@@ -20,3 +20,4 @@ while senha != 2002:
 
 print()
 print("Acesso permitido!")
+

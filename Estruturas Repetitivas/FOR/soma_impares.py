@@ -38,3 +38,5 @@ for i in range (x +1 and y):
 
 
 print(soma)
+
+#TIVE DIFICULDADE

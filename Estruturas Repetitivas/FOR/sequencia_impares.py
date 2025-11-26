@@ -18,3 +18,5 @@ for i in range (1,x+1):
     impar = int(i % 2 != 0)
 
     print(f"{impar}")
+
+    #TIVE DIFICULDADE

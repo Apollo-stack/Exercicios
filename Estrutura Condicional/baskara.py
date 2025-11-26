@@ -35,3 +35,5 @@ else:
         raiz2 = (-b - delta ** 0.5) / (2 * a)
         print(f"Raiz 1: {raiz1:.2f}")
         print(f"Raiz 2: {raiz2:.2f}")
+
+#TIVE DIFICULDADE
